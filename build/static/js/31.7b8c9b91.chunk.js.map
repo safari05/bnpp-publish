@@ -1,1 +1,0 @@
-{"version":3,"sources":["views/master/Pegawai.js"],"names":["Pegawai"],"mappings":"8KAAA,wBAWeA,UATC,WAEd,OACE","file":"static/js/31.7b8c9b91.chunk.js","sourcesContent":["import React,{useEffect, useState} from 'react';\n\nconst Pegawai = () =>{\n\n  return (\n    <div>\n      Halaman Pegawai\n    </div>\n  )\n}\n\nexport default Pegawai;\n"],"sourceRoot":""}

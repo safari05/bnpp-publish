@@ -1,0 +1,2 @@
+(this["webpackJsonp@coreui/coreui-free-react-admin-template"]=this["webpackJsonp@coreui/coreui-free-react-admin-template"]||[]).push([[30],{1803:function(e,t,a){"use strict";a.r(t);a(1);var c=a(21);t.default=function(){return Object(c.jsx)("h1",{children:"Pegawai kecamatn"})}}}]);
+//# sourceMappingURL=30.5a2b42d5.chunk.js.map
