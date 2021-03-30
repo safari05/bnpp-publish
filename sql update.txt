@@ -1,0 +1,34 @@
+select 
+a.id_kecamatan,a.id_kabupaten,a.kode,a.nama, b.alamat,b.longitude,b.latitude
+from wil.tb_kecamatan a
+inner join org.tb_kecamatan_profil b on a.id_kecamatan = b.id_kecamatan
+where a.id_kabupaten = 8103;
+
+
+ select a.id_kecamatan,a.id_kabupaten,a.kode,a.nama, b.alamat,b.longitude,b.latitude from wil.tb_kecamatan a inner join org.tb_kecamatan_profil b on a.id_kecamatan = b.id_kecamatan where a.id_kabupaten =8103
+ 
+	 select alamat as Alamat, longitude as Longitude, latitude as Latitude
+ from 
+ org.tb_kecamatan_profil where id_kecamatan = 610614;
+ 
+ 
+ select * from tb_appl_task where id_appl_task = 200 or id_appl_task_parent = 200;
+ 
+ update tb_appl_task
+ set controller_name = 'monev', action_name = 'AddMonev' where id_appl_task = 302;
+ 
+  update tb_appl_task
+ set controller_name = null, action_name = null where id_appl_task = 200;
+   update tb_appl_task
+ set controller_name = 'setting-app', action_name = 'users' where id_appl_task = 204;
+ update tb_appl_task
+ set controller_name = 'setting-app', action_name = 'menu' where id_appl_task = 202;
+ 
+ select * from org.tb_pegawai_kecamatan;
+ 
+ select * from wil.tb_kecamatan where id_KECAMATAN = 110609;
+ 
+ SELECT 
+* FROM wil.tb_kabupaten where id_kabupaten = 1106;
+
+select * from tb_user
