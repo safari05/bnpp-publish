@@ -1,2 +1,0 @@
-(this["webpackJsonp@coreui/coreui-free-react-admin-template"]=this["webpackJsonp@coreui/coreui-free-react-admin-template"]||[]).push([[32],{1814:function(e,a,t){"use strict";t.r(a);t(2);var i=t(22);a.default=function(){return Object(i.jsx)("div",{children:"Halaman Pegawai"})}}}]);
-//# sourceMappingURL=32.232ae072.chunk.js.map

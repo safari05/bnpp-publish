@@ -17,6 +17,10 @@ where a.id_kabupaten = 8103;
  update tb_appl_task
  set controller_name = 'monev', action_name = 'AddMonev' where id_appl_task = 302;
  
+ 
+  update tb_appl_task
+ set controller_name = 'monev', action_name = 'ReportMonev' where id_appl_task = 301;
+ 
   update tb_appl_task
  set controller_name = null, action_name = null where id_appl_task = 200;
    update tb_appl_task
